@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SunnyWeather</string>
+    <string name="TypeInUrl">输入地址</string>
+    <string name="placeName">地方名</string>
+    <string name="placeAddress">地方地址</string>
 </resources>

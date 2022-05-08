@@ -1,11 +1,9 @@
 package com.example.sunnyweather.logic.dao
 
 import android.content.Context
-import android.content.SharedPreferences
 import androidx.core.content.edit
 import com.example.sunnyweather.SunnyWeatherApplication
 import com.example.sunnyweather.logic.model.Place
-import com.example.sunnyweather.logic.network.SunnyWeatherNetwork
 import com.google.gson.Gson
 
 /**
@@ -26,7 +24,7 @@ object PlaceDao {
         return Gson().fromJson(placeJson,Place::class.java)
     }
 
-    fun isPlaceSaced() = sharedPreferences().contains("place")
+    fun isPlaceSaved() = sharedPreferences().contains("place")
 
     private fun sharedPreferences() = SunnyWeatherApplication.context.
     getSharedPreferences("sunny_weather", Context.MODE_PRIVATE)

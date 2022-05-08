@@ -15,7 +15,7 @@
         android:id="@+id/actionBarLayout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/design_default_color_primary">
+        android:background="@color/teal_700">
 
         <EditText
             android:id="@+id/searchPlaceEdit"
@@ -28,6 +28,7 @@
             android:paddingEnd="10dp"
             android:hint="@string/TypeInUrl"
             android:background="@drawable/search_bg" />
+
 
     </FrameLayout>
 

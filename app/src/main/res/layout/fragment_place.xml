@@ -14,10 +14,11 @@
     <FrameLayout
         android:id="@+id/actionBarLayout"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/teal_700">
+        android:layout_height="80dp"
+        android:background="@color/ic_launcher_background">
 
         <EditText
+            android:layout_marginTop="20dp"
             android:id="@+id/searchPlaceEdit"
             android:layout_width="match_parent"
             android:layout_height="40dp"

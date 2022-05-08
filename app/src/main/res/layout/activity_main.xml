@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/bg_clear_day"
+    >
 
     <fragment
         android:id="@+id/placeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.sunnyweather.ui.place.PlaceFragment" />
+        android:name="com.example.sunnyweather.ui.place.PlaceFragment"
+        />
 
 
 </FrameLayout>
